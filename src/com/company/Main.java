@@ -21,10 +21,10 @@ public class Main {
             array[i] = 0;
             System.out.print(array[i] + " ");
         }
-        System.out.println("\nЗамена элементов массива на число 6");
+        System.out.println("\nЗамена элементов массива на число 89");
         for (int i = 0; i < array.length; i++)
         {
-            array[i] = 6;
+            array[i] = 89;
             System.out.print(array[i] + " ");
         }
     }
