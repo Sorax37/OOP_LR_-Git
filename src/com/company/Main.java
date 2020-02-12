@@ -9,10 +9,10 @@ public class Main {
             array[i] = (int) Math.round((Math.random() * 20) - 10);
             System.out.print(array[i] + " ");
         }
-        System.out.println("\nУмножение элементов массива на 3");
+        System.out.println("\nВычитание числа 6 из элементов массива");
         for (int i = 0; i < array.length; i++)
         {
-            array[i] = array[i] * 3;
+            array[i] = array[i] - 6;
             System.out.print(array[i] + " ");
         }
         System.out.println("\nОбнуление элементов массива");
